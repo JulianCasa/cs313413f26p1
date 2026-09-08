@@ -44,7 +44,8 @@ public class TestHelloWorld {
     assertEquals("hello world", list.get(0).getMessage());
   }
 
-  //Changed list.get(1)... to list.get(0)... in both tests
+  //Changed list.get(1)... to list.get(0)... in both tests //
+  // so as to not go out of bounds//
 
   @Test
   public void getYearInList() { // this test is broken - fix it!
